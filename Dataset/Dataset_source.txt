@@ -1,1 +1,28 @@
+PROJECT DATASET SOURCE
 
+Dataset: BIDMC (Beth Israel Deaconess Medical Center) PPG and ECG Dataset
+
+Signals Used:
+- ECG Lead II
+- PPG (PLETH)
+
+Sampling Frequency: 125 Hz
+
+Preprocessing:
+- Window length: 512 samples
+- Window stride: 256 samples
+- Overlap: 50%
+
+Dataset Split:
+- Training: 8,621 windows per signal
+- Validation: 1,631 windows per signal
+- Testing: 2,097 windows per signal
+
+Purpose:
+The dataset is used for ECG and PPG preprocessing, compressive sensing, CNN training, signal reconstruction and performance evaluation.
+
+Source:
+PhysioNet — BIDMC dataset collection.
+
+Note:
+Dataset files are not redistributed through this repository unless permitted by their applicable licence.
